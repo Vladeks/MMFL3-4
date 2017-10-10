@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                                android:id="@+id/fuzzyNumberResultLayout">
+
+    <TextView
+            android:text="@string/fuzzy_number_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12" android:layout_marginLeft="24dp" app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="16dp" android:textStyle="bold"/>
+    <TextView
+            android:text="@string/m_a_x_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="@+id/textView12"/>
+    <TextView
+            android:text="@string/dont_calculated_yet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/tvMembershipFuncA"
+            app:layout_constraintLeft_toRightOf="@+id/textView13" android:layout_marginLeft="8dp"
+            android:layout_marginBottom="0dp" app:layout_constraintBottom_toTopOf="@+id/tvAlphaA"/>
+    <TextView
+            android:text="@string/a_alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView15"
+            android:layout_marginLeft="0dp" app:layout_constraintLeft_toLeftOf="@+id/textView13"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/textView13"/>
+    <TextView
+            android:text="@string/dont_calculated_yet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAlphaA" app:layout_constraintLeft_toRightOf="@+id/textView15"
+            android:layout_marginLeft="32dp" app:layout_constraintBottom_toBottomOf="@+id/textView15"
+            android:layout_marginBottom="0dp"/>
+    <TextView
+            android:text="@string/fuzzy_number_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14" android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="@+id/textView15" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" android:textStyle="bold"/>
+    <TextView
+            android:text="@string/m_b_x_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView17" android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="@+id/textView14" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"/>
+    <TextView
+            android:text="@string/b_alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView18"
+            android:layout_marginLeft="0dp" app:layout_constraintLeft_toLeftOf="@+id/textView17"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/textView17"/>
+    <TextView
+            android:text="@string/dont_calculated_yet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMembershipFuncB" app:layout_constraintLeft_toRightOf="@+id/textView17"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="0dp" app:layout_constraintBottom_toTopOf="@+id/tvAlphaB"/>
+    <TextView
+            android:text="@string/dont_calculated_yet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/tvAlphaB"
+            app:layout_constraintLeft_toRightOf="@+id/textView18" android:layout_marginLeft="32dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView18" android:layout_marginBottom="0dp"/>
+    <TextView
+            android:text="@string/fuzzy_number_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView21" android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="@+id/textView18" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" android:textStyle="bold"/>
+    <TextView
+            android:text="@string/m_c_x_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView22"
+            android:layout_marginLeft="0dp" app:layout_constraintLeft_toLeftOf="@+id/textView21"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/textView21"/>
+    <TextView
+            android:text="@string/c_alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView23"
+            android:layout_marginLeft="0dp" app:layout_constraintLeft_toLeftOf="@+id/textView22"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/textView22"/>
+    <TextView
+            android:text="@string/dont_calculated_yet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/tvMembershipFuncC"
+            app:layout_constraintLeft_toRightOf="@+id/textView22" android:layout_marginLeft="8dp"
+            android:layout_marginBottom="0dp" app:layout_constraintBottom_toTopOf="@+id/tvAlphaC"/>
+    <TextView
+            android:text="@string/dont_calculated_yet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/tvAlphaC"
+            app:layout_constraintLeft_toRightOf="@+id/textView23" android:layout_marginLeft="32dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView23" android:layout_marginBottom="0dp"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MMFL3</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_configure">ConfigureActivity</string>
+    <string name="title_home">Введення</string>
+    <string name="title_dashboard">Подробиці</string>
+    <string name="title_graphic">Графік</string>
+    <!--<string name="title_notifications">Notifications</string>-->
+    <string name="enter_data">Додати</string>
+    <string name="fuzzy_number_a">Нечітке число A</string>
+    <string name="fuzzy_number_b">Нечітке число B</string>
+    <string name="fuzzy_number_c">Нечітке число C</string>
+    <string name="lower_boundary_of_interval">a_</string>
+    <string name="upper_boundary_of_interval">a-</string>
+    <string name="plural_element">aˆ</string>
+    <string name="enter_x">Введіть значення X</string>
+    <string name="m_a_x_value">mA(x)</string>
+    <string name="m_b_x_value">mB(x)</string>
+    <string name="m_c_x_value">mC(x)</string>
+    <string name="find">Знайти</string>
+    <string name="a_alpha">A alpha</string>
+    <string name="b_alpha">B alpha</string>
+    <string name="c_alpha">C alpha</string>
+    <string name="calculate">Розрахувати</string>
+    <string name="error_incorrect_number">Введіть коректне число</string>
+    <string name="error_interval_dont_initialized">Інтервали не ініціалізовані</string>
+    <string name="error_field_is_empty">Заповніть всіполя</string>
+    <string name="error_interval">Число не повиннобути null та a менше b менше c</string>
+    <string name="dont_calculated_yet">Не розраховано</string>
+
+    <!--BunkeringActivity-->
+    <string name="input_starting_fuel_level">Input starting fuel level</string>
+    <string name="start">Start</string>
+    <string name="title_activity_bunkering">BunkeringActivity</string>
+    <string name="title_activity_tankering">TankeringActivity</string>
+    <string name="section_format">Iteration: %1$d</string>
+    <string name="section_conflict">Conflict situation</string>
+    <string name="low_fuel_level">Low fuel level</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+</resources>
