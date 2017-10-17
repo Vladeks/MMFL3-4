@@ -87,10 +87,11 @@ public class ConfidenceInterval implements Serializable{
         int upperBound = random(lowerBound + fuelLevel / 10, fuelLevel / 3 + lowerBound);
         int midBound = random(lowerBound, upperBound);
 
-        if (lowerBound <= midBound && midBound <= upperBound){
-            return new ConfidenceInterval(lowerBound, midBound, upperBound);
-        }
-        return getRandomConfidanceInterval(number);
+//        if (lowerBound <= midBound && midBound <= upperBound){
+//            return new ConfidenceInterval(lowerBound, midBound, upperBound);
+//        }
+//        return getRandomConfidanceInterval(number);
+        return new ConfidenceInterval(lowerBound, midBound, upperBound);
     }
 
     /**
@@ -100,7 +101,7 @@ public class ConfidenceInterval implements Serializable{
      * @return random number in range [min, max]
      */
     private static int random(int min, int max) {
-        return new Random(System.currentTimeMillis()).nextInt(max + 1 - min) + min;
+        return new Random(/*System.currentTimeMillis()*/).nextInt(max + 1 - min) + min;
     }
 
 

@@ -157,8 +157,8 @@ public class ResultActivity extends AppCompatActivity {
             graph.getLegendRenderer().setVisible(true);
             graph.getViewport().setMaxX(max);
             graph.getLegendRenderer().setAlign(LegendRenderer.LegendAlign.TOP);
-            drawConfidanceInterval(graph, intervalA, Color.GREEN, "Замовлення");
-            drawConfidanceInterval(graph, intervalB, Color.RED, "Паливо на танкері");
+            drawConfidanceInterval(graph, intervalA, Color.GREEN, "Замовлення "+intervalA.toString());
+            drawConfidanceInterval(graph, intervalB, Color.RED, "Паливо на танкері "+intervalB.toString());
         }
 
         private void drawConfidanceInterval(GraphView graph ,ConfidenceInterval number, int color, String title) {
